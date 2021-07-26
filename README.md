@@ -6,3 +6,5 @@ Instruções da documentação de FastAPI utilizando Python.
 Tutorial: https://fastapi.tiangolo.com/pt/
 
 Tutorial - Path Parameters: https://fastapi.tiangolo.com/pt/tutorial/path-params/
+
+Tutorial - Query Parameters: https://fastapi.tiangolo.com/pt/tutorial/query-params/
