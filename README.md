@@ -10,3 +10,5 @@ Tutorial: https://fastapi.tiangolo.com/pt/
 Tutorial - Path Parameters: https://fastapi.tiangolo.com/pt/tutorial/path-params/
 
 Tutorial - Query Parameters: https://fastapi.tiangolo.com/pt/tutorial/query-params/
+
+Tutorial - Request Body: https://fastapi.tiangolo.com/tutorial/body/
