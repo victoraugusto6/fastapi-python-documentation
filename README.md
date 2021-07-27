@@ -1,4 +1,4 @@
-# FastAPI - Python - Exemplo de documentação
+# FastAPI - Python - Exemplos da documentação
 Instruções da documentação de FastAPI utilizando Python.
 
 [![codecov](https://codecov.io/gh/victoraugusto6/fastapi-python-documentation/branch/main/graph/badge.svg?token=X6MOE14QU5)](https://codecov.io/gh/victoraugusto6/fastapi-python-documentation)
