@@ -25,4 +25,9 @@ jobs:
           checkName: 'flake8_py3'   # NOTE: this needs to be the same as the job name
       - name: Rodar Testes Automáticos
         run: |
-          pytest
+          pytest --cov=apis
+      - name: Relatório Coverage
+        env:
+          CODECOV_TOKEN: "169fcd3b-1c32-49c7-b27e-d9ce57c5c335"
+        run: |
+          codecov
