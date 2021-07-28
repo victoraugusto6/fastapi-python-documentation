@@ -13,6 +13,7 @@ def test_read_root():
 
 def test_read_item():
     resp = client.get('/items/1')
+    assert resp.status_code == 200
     response = resp.json()
     assert response['item_id'] == 1
     resp = client.get('/items/1?q=Teste')
