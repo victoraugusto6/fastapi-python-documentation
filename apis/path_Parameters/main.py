@@ -20,4 +20,3 @@ async def get_model(model_name: ModelName):
         return {'model_name': model_name, 'message': 'Acessado Victor A.'}
     if model_name == ModelName.larissa:
         return {'model_name': model_name, 'message': 'Acessado Larissa Z.'}
-    return {'model_name': model_name, 'message': 'Acessou nenhum.'}
