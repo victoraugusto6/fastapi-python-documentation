@@ -41,6 +41,7 @@ certifi==2021.5.30 \
     --hash=sha256:50b1e4f8446b06f41be7dd6338db18e0990601dce795c2b1686458aa7e8fa7d8
     # via
     #   -r requirements.txt
+    #   httpcore
     #   httpx
     #   requests
 charset-normalizer==2.0.3 \
@@ -161,9 +162,9 @@ h11==0.12.0 \
     #   -r requirements.txt
     #   httpcore
     #   uvicorn
-httpcore==0.13.6 \
-    --hash=sha256:b0d16f0012ec88d8cc848f5a55f8a03158405f4bca02ee49bc4ca2c1fda49f3e \
-    --hash=sha256:db4c0dcb8323494d01b8c6d812d80091a31e520033e7b0120883d6f52da649ff
+httpcore==0.15.0 \
+    --hash=sha256:1105b8b73c025f23ff7c36468e4432226cbb959176eab66864b8e31c4ee27fa6 \
+    --hash=sha256:18b68ab86a3ccf3e7dc0f43598eaddcf472b602aba29f9aa6ab85fe2ada3980b
     # via httpx
 httptools==0.1.2 \
     --hash=sha256:07659649fe6b3948b6490825f89abe5eb1cec79ebfaaa0b4bf30f3f33f3c2ba8 \
@@ -184,9 +185,9 @@ httptools==0.1.2 \
     # via
     #   -r requirements.txt
     #   uvicorn
-httpx==0.18.2 \
-    --hash=sha256:979afafecb7d22a1d10340bafb403cf2cb75aff214426ff206521fc79d26408c \
-    --hash=sha256:9f99c15d33642d38bce8405df088c1c4cfd940284b4290cacbfb02e64f4877c6
+httpx==0.23.0 \
+    --hash=sha256:42974f577483e1e932c3cdc3cd2303e883cbfba17fe228b0f63589764d7b9c4b \
+    --hash=sha256:f28eac771ec9eb4866d3fb4ab65abd42d38c424739e80c08d8d20570de60b0ef
     # via -r requirements-dev.in
 idna==3.2 \
     --hash=sha256:14475042e284991034cb48e06f6851428fb14c4dc953acd9be9a5e95c7b6dd7a \
